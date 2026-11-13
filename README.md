@@ -13,7 +13,7 @@ It allows users to add and list student (Siswa) data locally.
 
 | Home Screen | Add Entry Screen |
 | :---: | :---: |
-| <img src="screenshot_home.png" width="250"/> | <img src="screenshot_entry.png" width="250"/> |
+| <img src="home_screen.png" width="250"/> | <img src="entry_screen.png" width="250"/> |
 
 ## Getting Started
 
