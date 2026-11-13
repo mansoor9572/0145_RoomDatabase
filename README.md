@@ -10,6 +10,7 @@ It allows users to add and list student (Siswa) data locally.
 - **Navigation**: Multi-screen navigation using Compose Navigation.
 
 ## Screenshot
+<img width="257" height="551" alt="image" src="https://github.com/user-attachments/assets/3579dfbf-a0dc-4c57-8b73-403df88d27b8" />
 
 <img src="home_screen.png" width="250"/>
 
