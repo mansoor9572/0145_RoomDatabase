@@ -9,9 +9,11 @@ It allows users to add and list student (Siswa) data locally.
 - **Jetpack Compose**: Modern declarative UI toolkit for Android.
 - **Navigation**: Multi-screen navigation using Compose Navigation.
 
-## Screenshot
+## Screenshots
 
-![App Screenshot](screenshot.png)
+| Home Screen | Add Entry Screen |
+| :---: | :---: |
+| ![Home Screenshot](screenshot_home.png) | ![Entry Screenshot](screenshot_entry.png) |
 
 ## Getting Started
 
