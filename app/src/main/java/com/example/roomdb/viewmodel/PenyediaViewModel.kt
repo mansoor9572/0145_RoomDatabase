@@ -2,19 +2,40 @@ package com.example.roomdb.viewmodel
 
 import android.app.Application
 import androidx.lifecycle.ViewModelProvider
+import androidx.lifecycle.createSavedStateHandle
 import androidx.lifecycle.viewmodel.CreationExtras
 import androidx.lifecycle.viewmodel.initializer
 import androidx.lifecycle.viewmodel.viewModelFactory
 import com.example.roomdb.AplikasiSiswa
 
 object PenyediaViewModel {
+
     val Factory = viewModelFactory {
+
         initializer {
-            HomeViewModel(aplikasiSiswa().container.repositoriSiswa)
+            HomeViewModel(
+                aplikasiSiswa().container.repositoriSiswa
+            )
         }
 
         initializer {
-            EntryViewModel(aplikasiSiswa().container.repositoriSiswa)
+            EntryViewModel(
+                aplikasiSiswa().container.repositoriSiswa
+            )
+        }
+
+        initializer {
+            DetailViewModel(
+                savedStateHandle = this.createSavedStateHandle(),
+                repositoriSiswa = aplikasiSiswa().container.repositoriSiswa
+            )
+        }
+
+        initializer {
+            EditViewModel(
+                savedStateHandle = this.createSavedStateHandle(),
+                repositoriSiswa = aplikasiSiswa().container.repositoriSiswa
+            )
         }
     }
 }
