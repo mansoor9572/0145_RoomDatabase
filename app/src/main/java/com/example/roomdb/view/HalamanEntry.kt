@@ -24,12 +24,12 @@ import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.input.KeyboardType
 import androidx.lifecycle.viewmodel.compose.viewModel
 import com.example.roomdb.R
-import com.example.roomdb.uicontroller.DestinasiEntry
-import com.example.roomdb.uicontroller.SiswaTopAppBar
+import com.example.roomdb.view.route.DestinasiEntry
+import com.example.roomdb.view.uicontroller.SiswaTopAppBar
 import com.example.roomdb.viewmodel.DetailsSiswa
 import com.example.roomdb.viewmodel.EntryViewModel
-import com.example.roomdb.viewmodel.PenyediaViewModel
 import com.example.roomdb.viewmodel.UIStatesSiswa
+import com.example.roomdb.viewmodel.provider.PenyediaViewModel
 import kotlinx.coroutines.launch
 
 @OptIn(ExperimentalMaterial3Api::class)
